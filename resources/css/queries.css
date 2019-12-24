@@ -1,0 +1,134 @@
+/* Big tablets to 1200px: (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{ padding: 0 2%; }
+    span{
+        font-size: 20%;
+        font-weight: 200;
+    }
+}
+
+/* Small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width: 1023px){
+    body{ font-size: 18px; }
+    section{ padding: 60px 0;}
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .steps-box{ margin-top:10px; }
+    /* .steps-box:first-child{ padding-right: 0.1%;} */
+    .steps-box:last-child{ margin-bottom: 10px;}
+    .works-step:last-child{
+        margin-bottom: 60px;
+        
+    }
+    .btn-app img{ padding-top: 0.1%; }
+    .app-screen{
+        width: 60%;
+        height: auto;
+    }
+    /* .box{ width: 150px;} */
+    .box{font-size: 81%}
+    .plan-box{
+        width: 100%;
+        margin-left:0;
+    }
+    .contact-form{ width: 80%; }
+        input[type=text],
+        input[type=email],
+        input[type=checkbox],
+        textarea,
+        select{ margin-bottom: 5px; }
+        .contact-form div label{ margin-bottom: 5px; }
+    
+    span{
+        font-size: 20%;
+        font-weight: 200;
+        }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px){
+    .main-nav li{
+        margin-left: 10px;
+    }
+    .main-nav{
+        margin-top: 50px;
+    }
+    .main-nav{
+        /*  margin-top: -50px;
+         margin-left: 100px; */
+         display: none;
+     }
+    .logo{
+        height: 80px;
+        width: auto;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        font-size: 90%;
+        padding: 10px 0;
+    }
+    .works-step{
+        font-size: 90%;
+    }
+    .section-cities .row a{
+        font-size: 90%;
+    }
+} 
+
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px){
+    html{ font-size: 15px; }
+    .icon-big{
+        font-size: 300%;
+        margin-bottom: 0;
+    }
+    h3{
+        margin-bottom: 20px;
+    }
+    .box p{
+        font-size: 120%;
+        line-height: 145%;
+    }
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    section{ padding: 25px 0;}
+    .app-screen{
+        width: 40%;
+    }
+    
+    .long-copy{
+        width: 100%;
+        margin-left: 0;
+    }
+    .row,
+    .hero-text-box{ padding: 0 2%; }
+    .works-step div{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 100%;
+        width: 8.5%
+    }
+    .works-step{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .works-step:last-of-type{ margin-bottom: 30px; }
+    .steps-box:first-child{ text-align: center;}
+    .steps-box:last-child{ margin-top:0; }
+    h2{ font-size: 120%; }
+    .contact-form{ width: 100%; }
+}
